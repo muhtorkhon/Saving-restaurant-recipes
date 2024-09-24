@@ -1,0 +1,26 @@
+3. Retseptlar boshqaruvi dasturi
+● Talablar:
+○ Retsept qo‘shish: Foydalanuvchilar yangi retsept qo‘shishi mumkin. Har bir
+retseptning nomi, masalliqlar ro‘yxati (matn ko‘rinishida) va tayyorlash usuli
+(matn ko‘rinishida) bo‘lishi kerak.
+○ Retsept tahrirlash: Mavjud retseptlarni tahrirlash funksiyasi bo‘lishi kerak.
+Foydalanuvchi retsept nomi, masalliqlar ro‘yxatini yoki tayyorlash usulini
+o‘zgartirishi mumkin.
+○ Retsept o‘chirish: Foydalanuvchilar keraksiz retseptlarni o‘chirish
+imkoniyatiga ega bo‘lishi lozim.
+○ Masalliqlar bo‘yicha qidiruv: Foydalanuvchi retseptlar ichidan ma'lum
+masalliqlarni o‘z ichiga olgan retseptlarni qidirishi mumkin.
+○ Retsept bo‘yicha qidiruv: Foydalanuvchi retseptlarni nomi bo‘yicha qidirishi
+mumkin.
+● Ma'lumotlar bazasi (MySQL):
+○ recipes jadvali:
+■ recipe_id (unikal identifikator)
+■ name (retsept nomi)
+■ ingredients (masalliqlar ro‘yxati, matn ko‘rinishida)
+■ instructions (tayyorlash ko‘rsatmalari, matn ko‘rinishida)
+● PyQt5 Ilovasi:
+○ Retseptlar ro‘yxati: Retseptlar PyQt5 ilovasida ro‘yxat ko‘rinishida
+ko‘rsatilishi kerak. Ro‘yxatda har bir retseptning nomi ko‘rsatiladi.
+○ Qidirish: Foydalanuvchi retseptlarni nomi yoki masalliqlar bo‘yicha qidirishi
+mumkin.
+○ Ko‘rsatmalarni ko‘rish: Foydalanuvchi retsept tanlag
